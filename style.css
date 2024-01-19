@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.nav{
+    width: 85vw;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+}
+.nav img{
+    width: 260px;
+}
+
+.nav .navLinks{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    font-weight: 500;
+}
+
+.nav .navLinks .links{
+    cursor: pointer;
+}
+
+.nav button{
+    all: unset;
+    font-size: larger;
+    background-color: #00837C;
+    padding: 11px 19px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-section{
+    width: 85vw;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hero-section .hero-left{
+    width: 50%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 3vh;
+}
+
+.hero-left .left-heading{
+    font-size:3rem;
+    text-transform: capitalize;
+    font-weight:bold;
+    line-height: 8vh;
+}
+
+.hero-left span{
+    color: #00837C;
+}
+
+.hero-left h3{
+    color: gray;
+}
+
+.hero-left .hero-button-left{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5vw;
+    background-color: #00837C;
+    border-radius: 55px;
+    color: #fff;
+    padding: 10px 20px;
+     cursor: pointer;
+}
+
+.hero-button-left img{
+    height: 38px;
+}
+
+.hero-left .job-types{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap : 2vw;
+}
+
+.job-types .type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap:.4vh;
+}
+
+.type .typeof{
+    font-weight:bold;
+    background-color: rgb(230, 230, 230);
+    padding: 3px 9%;
+    border-radius: 20px;
+}
+
+.type .pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+.hero-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right .phoneImg{
+    padding-left: 150px;
+    z-index: 20;
+}
+
+.hero-section .hero-right .hero-gradient{
+    position: absolute;
+    z-index: 10;
+}
