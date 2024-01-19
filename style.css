@@ -326,3 +326,82 @@
     box-shadow: -3px 4px 0px rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid white;
 }
+
+.section-4{
+    width: 100%;
+    margin: 10vh 0;
+}
+
+.section-4 .container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url('./assests/WriteEase WhatsApp Extracted/Rectangle 15.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: center;
+    padding:5vh 8vw;
+}
+
+.section-4 .container .left-part h2{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.section-4 .container .left-part h2 span{
+    color: #160547;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: auto;
+    gap: 20px;
+}
+
+.right-part .card-part{
+    max-width: 300px;
+    background-color: white;
+    padding: 30px 26px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);}
+
+.card-part h5{
+    font-size: 1rem;
+}
+
+.card-part p{
+    font-size: .8rem;
+}
+
+.never{
+    font-weight: 900;
+}
+
+.name-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.part-4{
+    margin-top: 20vh;
+}
+
+.part-3{
+    margin-bottom: 20vh;
+}
