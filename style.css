@@ -527,3 +527,49 @@
     border-radius: 10px;
     background-color: #050c56;
 }
+
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 0 0;
+}
+
+.main-foot{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around  ;
+}
+
+.foot-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.foot-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+}
+
+.foot-sec p{
+    text-align: center;
+}
+
+.last{
+    margin:5vh 0;
+}
+
+.last .span-green{
+    color: #00837C;
+    font-weight: 600    ;
+}
