@@ -202,7 +202,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    box-shadow: -20px 20px 0px rgba(0, 0, 0, 0.5);}
+    box-shadow: -20px 20px 0px rgba(0, 0, 0, 0.5);
+}
 
 .card h3{
     text-transform: capitalize;
@@ -274,7 +275,7 @@
     border-radius: 100%;
     padding: 8px 12px;
     text-align: center;
-
+    color: white;
 }
 
 .works h4{
@@ -404,4 +405,86 @@
 
 .part-3{
     margin-bottom: 20vh;
+}
+
+.section-5{
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-image: url('./assests/WriteEase WhatsApp Extracted/Group 5.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: 0vw -6vh ;
+}
+
+.section-5 h1{
+    font-size: 2.6rem;
+    font-weight: 550;
+}
+
+.section-5 p{
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.pricing-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    gap: 2vw;
+    padding: 5vh 0;
+}
+
+.price-card{
+    background-color: #ffffffe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start ;
+    gap: 0px;
+    max-width: 220px;
+    padding: 20px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: -15px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.price-card h4{
+    color: #00837C;
+}
+
+.price-card h1{
+    color: #08514d;
+    font-weight: 800;
+}
+
+.price-card p{
+    color: black;
+    text-align: start;
+    margin: 3vh 0;
+}
+
+.price-card button{
+    all: unset;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: #00837C;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+
+.price-card ul{
+    padding-left: 15px;
+    color: #00837C;
 }
