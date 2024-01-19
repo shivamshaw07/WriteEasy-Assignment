@@ -488,3 +488,42 @@
     padding-left: 15px;
     color: #00837C;
 }
+
+.section-6{
+    background: rgb(12,146,106);
+    background: radial-gradient(circle, rgba(12,146,106,1) 0%, rgba(2,101,90,1) 55%);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 5vh 0;
+}
+
+.section-6 .container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-6 .container h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.section-6 .container p{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.section-6 .container button{
+    all:unset;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    background-color: #050c56;
+}
