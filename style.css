@@ -4,7 +4,7 @@
 }
 
 .wrapper{
-    width: 100vw;
+    max-width: 100vw;
     height: auto;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -132,7 +133,7 @@
     height: 80px;
     border-radius: 100%;
     background-color: aqua;
-}
+}   
 
 .hero-right{
     width: 50%;
@@ -150,3 +151,72 @@
     position: absolute;
     z-index: 10;
 }
+
+.section-2{
+    width: 100vw;
+    background-image: url('./assests/WriteEase WhatsApp Extracted/Rectangle 10.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: hidden;
+}
+
+.section-2 .section-2-container{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.section-2-container h1{
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-2-container h2{
+    font-size:1.2rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5vh;
+    margin: 8vh 0;
+}
+
+.card{
+    width: 240px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: -20px 20px 0px rgba(0, 0, 0, 0.5);}
+
+.card h3{
+    text-transform: capitalize;
+    font-size:  x-large;
+}
+
+.card p{
+    font-size: large;
+}
+
+.card button{
+    all: unset;
+    cursor: pointer;
+}
+ .card img{
+    margin-left: 30px;
+ }
