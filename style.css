@@ -19,6 +19,12 @@
     }
     .wrapper .container .hero-section .hero-left{
         width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .marketer{
+        background-color: #00837C;
+        display: none;
     }
     .wrapper .container .hero-section .hero-left .left-heading {
         text-align: center;
@@ -29,7 +35,11 @@
         text-align: center;
         width: 100%;
     }
-
+    .hero-right .phoneImg{
+        padding: 60px 150px 0 0;
+        z-index: 20;
+    }
+    
     .section-2-container h2{
         width: 100%;
         text-align: center;
@@ -44,20 +54,31 @@
         flex-direction: column;
     }
     .section-2-container .cards .card{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
-    .section-3 .container{
-        display: flex;
+    .section-3 .sec-p{
+        width: 100%;
+        text-align: center;
+    }
+    .section-3 .wrap{
         flex-direction: column;
-    }
-    .section-3 .container .work-left{
         width: 100%;
     }
-    .work-left .works{
+    .section-3 .wrap .work-left{
+        min-width: 100%;
+    }
+    .section-3 .container .work-left .works{
         width: 100%;
     }
-
+    .section-3 .container .work-right{
+        min-width: 100%;
+        padding: 20px 5px;
+        gap: 15px;
+    }
+    .section-5{
+        min-width: 100%;
+    }
     .section-5 #worry{
         font-size: .9rem;
     }
@@ -104,6 +125,9 @@
     .wrapper .container .hero-section .hero-left{
         width: 100%;
     }
+    
+    .marketer{
+        display: block;
     }
     .wrapper .container .hero-section .hero-left .left-heading{
         text-align: center;
@@ -114,7 +138,11 @@
         text-align: center;
         width: 100%;
     }
-
+    .hero-right .phoneImg{
+        padding-left: 0px;
+        z-index: 20;
+    }
+    
     .section-2-container h2{
         width: 100%;
         text-align: center;
@@ -167,7 +195,7 @@
         align-items: center;
     }
   
-  
+}
   /* Desktops (small, medium, large) */
   @media screen and (min-width: 992px) and (max-width: 1199px) {
    .nav  #bar{
@@ -185,10 +213,18 @@
     .hero-left{
         width: 50%;
     }
+    .marketer{
+        display: block;
+    }
     .hero-left .left-heading{
         text-align: start;
         width: 50%;
     }
+    .hero-right .phoneImg{
+        padding-left: 150px;
+        z-index: 20;
+    }
+    
     .section-2 .section-2-container .cards{
         display: flex;
         flex-direction: row;
@@ -228,6 +264,9 @@
     .hero-left{
         width: 50%;
     }
+    .marketer{
+        display: block;
+    }
     .hero-left .left-heading{
         text-align: start;
         width: auto;
@@ -235,6 +274,11 @@
     .wrapper .container .hero-section .hero-left .sec-heading{
         text-align: start;
     }
+    .hero-right .phoneImg{
+        padding-left: 150px;
+        z-index: 20;
+    }
+    
     .section-2 .section-2-container .cards{
         display: flex;
         flex-direction: row;
@@ -292,6 +336,9 @@
     display: block;
     height: 25px;
     width: auto;
+}
+.marketer{
+    display: block;
 }
 .nav img{
     width: 260px;
@@ -531,8 +578,8 @@
 .section-3 .container .work-left .works{
     display: flex;
     width: 100%;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     gap: 1.5vw;
     margin-top: 2vh;
 }
@@ -552,14 +599,14 @@
 
 .works p{
     color: gray;
-    padding: 6px 0;
+    padding-top: 6px ;
 }
 
 .gap-line{
     height: 6vh;
     width: 2px;
     border-left: 3px solid #00837C;
-    margin-left: 20px;
+    margin: 10px 20px;
 }
 
 .work-right{
